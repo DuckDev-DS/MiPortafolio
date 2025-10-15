@@ -84,6 +84,8 @@ bash
 Copiar código
 npm run test
 
+```
+
 👨‍💻 Autor
 
 Desarrollado por:
