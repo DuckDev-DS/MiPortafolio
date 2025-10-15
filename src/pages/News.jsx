@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import ContentGrid from '../components/templates/ContentGrid';
 import NewsCard from '../components/organisms/NewsCard';
-import news from '../data/news';
+import news from '../News';
 import BackButton from '../components/atoms/BackButton'
 import '../styles/pages/News.css';
 import '../styles/atoms/Button.css'
