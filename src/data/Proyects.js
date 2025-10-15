@@ -1,4 +1,4 @@
-import smartPark from '../../public/img/proyects/smartPark.webp'
+import smartPark from '../../public/img/proyects/SmartPark.webp'
 import kozi from '../../public/img/proyects/kozi.webp'
 import libreria from '../../public/img/proyects/libreria.webp'
 
