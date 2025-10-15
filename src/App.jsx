@@ -2,13 +2,13 @@ import { Routes, Route } from 'react-router-dom';
 import NavBar from './components/organisms/NavBar';
 import Home from './pages/Home';
 import Proyects from './pages/Proyects';
-import ProyectsDetail from './pages/ProyectDetail';
-import NotFound from './pages/NotFound';
+import ProyectsDetail from './pages/ProyectDetails';
+import NotFound from './pages/NotFounds';
 import Footer from './components/organisms/Footer';
 import About from './pages/Abouts';
 import News from './pages/News';
-import NewsDetail from './pages/NewDetail';
-import Contact from './pages/Contact';
+import NewsDetail from './pages/NewDetails';
+import Contact from './pages/Contacts';
 function App() {
  return (
    <>
