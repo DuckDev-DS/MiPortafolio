@@ -1,0 +1,21 @@
+
+.home-skills-title {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.home-skill-badge {
+  background-color: #667eea;
+  font-size: 0.85rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .home-skill-badge {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+}

@@ -1,0 +1,35 @@
+
+.title-h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.title-h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 0.75rem;
+}
+
+.title-h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #495057;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .title-h1 {
+    font-size: 2rem;
+  }
+  
+  .title-h2 {
+    font-size: 1.75rem;
+  }
+  
+  .title-h3 {
+    font-size: 1.25rem;
+  }
+}

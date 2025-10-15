@@ -1,0 +1,57 @@
+
+.proyect-card-footer {
+  background: transparent;
+  border-top: 1px solid #e9ecef;
+  padding: 1rem;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-buttons .btn-group {
+  gap: 0.5rem;
+}
+
+.proyect-details-btn,
+.proyect-link-btn {
+  min-width: 120px;
+  transition: all 0.3s ease;
+}
+
+.elegant-blue-btn {
+  border: 1px solid #74c0fc;
+  color: #74c0fc;
+  font-weight: 500;
+  background: transparent;
+}
+
+.elegant-blue-btn:hover {
+  background-color: #f3f9ff;
+  border-color: #4dabf7;
+  color: #4dabf7;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(116, 192, 252, 0.2);
+}
+
+.elegant-blue-btn:active {
+  transform: translateY(0);
+  background-color: #d0ebff;
+}
+
+.elegant-blue-btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(77, 171, 247, 0.25);
+}
+
+@media (max-width: 576px) {
+  .footer-buttons .btn-group {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .proyect-details-btn,
+  .proyect-link-btn {
+    width: 100%;
+  }
+}

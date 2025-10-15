@@ -1,0 +1,6 @@
+.category-badge {
+  font-size: 0.8rem;
+  padding: 0.4rem 0.8rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+}

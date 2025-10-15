@@ -1,0 +1,51 @@
+.proyect-grid-template {
+  padding: 2rem 0;
+  background: linear-gradient(135deg, #e0d1decb 0%, #a55df783 100%);
+  min-height: 100vh;
+}
+
+.proyect-grid-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.proyect-grid-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.proyect-grid-subtitle {
+  color: #667eea;
+  font-size: 1.2rem;
+}
+
+.proyect-grid-container {
+  margin: 0 -15px;
+}
+
+.proyect-grid-empty {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #6c757d;
+}
+
+.proyect-grid-empty h3 {
+  margin-bottom: 1rem;
+  color: #495057;
+}
+
+@media (max-width: 768px) {
+  .proyect-grid-template {
+    padding: 1rem 0;
+  }
+  
+  .proyect-grid-title {
+    font-size: 2rem;
+  }
+  
+  .proyect-grid-subtitle {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,21 @@
+/* styles/pages/ProyectDetail.css */
+.proyect-detail-card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.proyect-detail-body {
+    padding: 2rem;
+}
+
+.footer-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .footer-buttons {
+        flex-direction: column;
+    }
+}

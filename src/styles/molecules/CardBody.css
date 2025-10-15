@@ -1,0 +1,21 @@
+.proyect-card-body {
+  padding: 1.5rem;
+}
+
+.proyect-category {
+  margin-bottom: 1rem;
+}
+
+.proyect-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.proyect-description {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}

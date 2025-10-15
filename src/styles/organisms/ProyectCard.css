@@ -1,0 +1,10 @@
+.proyect-card-col {
+  margin-bottom: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .proyect-card-col {
+    margin-bottom: 1.5rem;
+  }
+}

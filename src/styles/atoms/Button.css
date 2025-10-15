@@ -1,0 +1,52 @@
+.proyect-link-btn {
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 2px solid #667eea;
+  color: #667eea;
+}
+
+.proyect-link-btn:hover {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-color: #667eea;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.elegant-button {
+  border: 2px solid #667eea;
+  color: #667eea;
+  background: transparent;
+  font-weight: 500;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.elegant-button:hover {
+  background: #667eea;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.elegant-button:active {
+  transform: translateY(0);
+}
+
+.back-btn {
+  border: 2px solid #8B5FBF;
+  color: #8B5FBF;
+  background: transparent;
+  font-weight: 500;
+  border-radius: 25px;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.back-btn:hover {
+  background: #8B5FBF;
+  color: rgb(211, 16, 16);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(139, 95, 191, 0.3);
+}

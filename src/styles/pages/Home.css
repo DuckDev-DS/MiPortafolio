@@ -1,0 +1,37 @@
+
+.home-container {
+  background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+  min-height: 100vh;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.home-hero {
+  min-height: 80vh;
+  width: 100%;
+}
+
+.home-image-section {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.home-content-section {
+  padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    padding: 1rem 0;
+  }
+  
+  .home-content-section {
+    padding: 0 0.5rem;
+  }
+  
+  .home-image-section {
+    margin-bottom: 1.5rem;
+  }
+}
