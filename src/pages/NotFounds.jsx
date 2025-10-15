@@ -4,7 +4,7 @@ import Image from '../components/atoms/Image';
 import '../styles/templates/ContentHero.css';
 
 const image = {
-    src: '../../public/img/pages/NotFound.webp',
+    src: '/img/pages/NotFound.webp',
     alt: 'Not Found Image',
 }
 
